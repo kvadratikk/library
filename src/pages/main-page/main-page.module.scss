@@ -1,0 +1,21 @@
+.root {
+  padding-top: 47px;
+  padding-bottom: 62px;
+}
+
+.container {
+  display: flex;
+  gap: 6px;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-top: 39px;
+  }
+}
+
+@media (max-width: 320px) {
+  .root {
+    padding-top: 20px;
+  }
+}

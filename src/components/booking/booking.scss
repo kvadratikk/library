@@ -1,0 +1,47 @@
+.booking {
+  max-width: 528px;
+  width: 100%;
+  padding: 48px 56px;
+  text-align: center;
+  background-color: var(--light);
+  border-radius: 16px;
+  z-index: 1;
+  position: relative;
+
+  h4 {
+    max-width: 225px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  &__submit {
+    display: block;
+    margin-top: 16px;
+    width: 100%;
+    padding: 14px 0;
+    font: var(--font-btn-l);
+
+    &:disabled.btn {
+      background-color: var(--gblack10);
+      color: var(--light);
+      border-color: transparent;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .booking {
+    max-width: 288px;
+    padding: 32px 16px;
+
+    h4 {
+      font: var(--font-title-3-mobile);
+      margin-bottom: 24px;
+    }
+
+    &__submit {
+      padding: 11px;
+      font: var(--font-btn-s-mobile);
+    }
+  }
+}

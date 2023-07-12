@@ -1,0 +1,52 @@
+.swiper {
+  z-index: 0;
+  margin: 0;
+  max-width: 100%;
+
+  &-slide {
+    max-width: 255px;
+    height: auto;
+  }
+
+  &-pagination {
+    position: static;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    &-bullet {
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 1;
+      width: 7px;
+      height: 7px;
+      background-color: var(--gblack20);
+
+      &-active {
+        background-color: var(--dark);
+        width: 9px;
+        height: 9px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    display: inherit;
+
+    &-slide {
+      max-width: 190px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .swiper {
+    &-slide {
+      max-width: 288px;
+    }
+  }
+}

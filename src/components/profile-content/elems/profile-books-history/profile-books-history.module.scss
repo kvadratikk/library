@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin-left: 0;
+    max-width: 174px;
+    height: 242px;
+  }
+}
+
+.rate {
+  font: var(--font-btn-s-mobile);
+  padding: 11px 0;
+  margin-top: 28px;
+  max-width: 100%;
+}
+
+@media (max-width: 320px) {
+  .card {
+    img {
+      margin-left: auto;
+    }
+  }
+}

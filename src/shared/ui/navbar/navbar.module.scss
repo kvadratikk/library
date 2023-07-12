@@ -1,0 +1,67 @@
+.root {
+  max-width: 279px;
+  width: 100%;
+}
+
+.profile {
+  display: none;
+}
+
+.list {
+  > li {
+    &:not(:last-child) {
+      margin-bottom: 39px;
+    }
+  }
+}
+
+.burger {
+  position: absolute;
+  left: -100%;
+  transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .default {
+    display: none;
+  }
+
+  .visible {
+    left: 2.3%;
+  }
+
+  .burger {
+    max-width: 80%;
+    background-color: var(--gblack5);
+    padding: 32px;
+    padding-bottom: 52px;
+    top: calc(100% + 18px);
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+      0px 1px 5px rgba(191, 196, 201, 0.24);
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .list,
+  .profile {
+    > li {
+      &:not(:last-child) {
+        margin-bottom: 42px;
+      }
+    }
+  }
+
+  .profile {
+    display: inherit;
+    border-top: 1px solid var(--gblack20);
+    padding-top: 32px;
+    margin-top: 52px;
+  }
+}
+
+@media (max-width: 320px) {
+  .burger {
+    max-width: calc(100% - 16px);
+    padding: 32px 16px;
+  }
+}

@@ -1,0 +1,82 @@
+.root {
+  display: flex;
+  transition: 0.2s;
+  flex-grow: 0;
+  justify-content: flex-end;
+
+  button {
+    margin-left: 16px;
+    min-width: 38px;
+    min-height: 38px;
+    display: flex;
+  }
+}
+
+.icon {
+  svg {
+    width: 19px;
+    height: 19px;
+    fill: var(--gblack40);
+  }
+}
+
+.booking {
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
+  svg {
+    z-index: 1;
+    left: 0;
+    position: absolute;
+    stroke: var(--light);
+  }
+
+  input {
+    position: absolute;
+  }
+
+  input,
+  .checkmark {
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid var(--gblack40);
+    border-radius: 5px;
+  }
+
+  input {
+    opacity: 0;
+
+    &:checked ~ .checkmark {
+      background: var(--accent);
+      border-color: transparent;
+    }
+  }
+}
+
+.active {
+  svg {
+    fill: var(--light);
+  }
+
+  background: var(--btn-hover);
+}
+
+@media (max-width: 320px) {
+  .root {
+    button {
+      width: 32px;
+      height: 32px;
+    }
+
+    .icon {
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

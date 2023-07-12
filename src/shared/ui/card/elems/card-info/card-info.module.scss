@@ -1,0 +1,34 @@
+.root {
+  color: var(--gblack70);
+  font: var(--font-body-s);
+  grid-column: 1 / 3;
+
+  span {
+    color: var(--btn-hover-rgb);
+  }
+}
+
+.list {
+  order: -1;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font: var(--font-body-l);
+}
+
+@media (max-width: 768px) {
+  .list {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .root {
+    font: var(--font-body-s-mobile);
+  }
+
+  .list {
+    font: var(--font-body-s-mobile);
+    margin-bottom: 3px;
+  }
+}

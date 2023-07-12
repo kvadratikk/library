@@ -1,0 +1,25 @@
+.root {
+  padding: 32px 0 62px 0;
+}
+
+.container {
+  > *:not(:last-child) {
+    margin-bottom: 92px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    > *:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    > *:not(:last-child) {
+      margin-bottom: 42px;
+    }
+  }
+}

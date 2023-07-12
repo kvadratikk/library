@@ -1,0 +1,26 @@
+.root {
+  position: relative;
+  max-width: 528px;
+  flex-grow: 1;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--gblack70);
+  background-color: var(--gblack5);
+  position: absolute;
+  width: 100%;
+  padding: 20px 16px;
+  text-transform: uppercase;
+  font: var(--font-btn-s-mobile);
+  border-radius: 16px;
+  z-index: 1;
+
+  svg {
+    stroke: var(--gblack20);
+  }
+}

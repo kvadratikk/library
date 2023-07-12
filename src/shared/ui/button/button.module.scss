@@ -1,0 +1,70 @@
+.root {
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: border 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.1s;
+
+  &:hover:not(:disabled) {
+    border: 1px solid #ff740f;
+    box-shadow: 0px 2px 5px rgba(54, 54, 54, 0.1);
+  }
+
+  &:active:not(:disabled) {
+    box-shadow: 0px 3px 4px rgba(222, 125, 11, 0.2), 0px 1px 10px rgba(249, 89, 8, 0.2);
+    background-color: #fff;
+  }
+
+  &:disabled {
+    background: var(--gblack5);
+    border: 1px solid var(--gblack20);
+    color: var(--gblack40);
+    cursor: default;
+  }
+}
+
+.default {
+  background: var(--btn-hover);
+  color: var(--light);
+  border: 1px solid transparent;
+}
+
+.booked {
+  background: var(--light);
+  background-color: transparent;
+  border: 1px solid var(--gblack20);
+  color: var(--dark);
+
+  &:hover:not(:disabled) {
+    border-color: var(--gblack20);
+  }
+
+  &:active {
+    box-shadow: 0px 2px 5px rgba(54, 54, 54, 0.1);
+  }
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: background-color 0.3s, filter 0.3s;
+  background-color: var(--light);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18))
+    drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+
+  &:hover:not(:disabled) {
+    border: none;
+    filter: drop-shadow(0px 2px 5px rgba(54, 54, 54, 0.1));
+  }
+
+  &:active:not(:disabled) {
+    filter: drop-shadow(0px 3px 4px rgba(222, 125, 11, 0.2)) drop-shadow(0px 1px 10px rgba(249, 89, 8, 0.2));
+  }
+
+  &.active {
+    background: var(--btn-hover);
+  }
+}

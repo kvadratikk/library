@@ -1,0 +1,137 @@
+.root {
+  margin-right: auto;
+  margin-left: 16px;
+  color: var(--gblack40);
+  font: var(--font-body-s);
+  z-index: 1;
+  background-color: var(--light);
+  border-radius: 20px !important;
+
+  button {
+    display: flex;
+    color: var(--gblack40);
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    padding: 8px 12px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--gblack40);
+    margin-left: 8px;
+  }
+}
+
+.sort {
+  padding-bottom: 8px;
+  position: relative;
+  z-index: 2;
+  height: 38px;
+}
+
+.close {
+  display: none;
+}
+
+.sortIcon {
+  display: none;
+  margin-right: auto;
+  margin-left: 12px;
+
+  svg {
+    display: none;
+    fill: var(--gblack40);
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.option {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, color 0.3s;
+
+  &:hover {
+    color: var(--btn-pressed-rgb);
+
+    svg {
+      transition: fill 0.3s;
+      fill: var(--btn-pressed-rgb);
+    }
+  }
+}
+
+.open {
+  height: 100%;
+
+  .option {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .sort {
+    position: relative;
+
+    &:after {
+      position: absolute;
+      height: 1px;
+      display: block;
+      background: var(--gblack10);
+      content: '';
+      bottom: 0px;
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 435px) {
+  .root {
+    display: none;
+    width: 100%;
+  }
+
+  .close {
+    position: relative;
+
+    svg {
+      fill: var(--btn-pressed-rgb);
+      height: 17px;
+      width: 17px;
+    }
+  }
+
+  .visible {
+    display: block;
+    margin: 0;
+
+    & ~ *,
+    & ~ button {
+      visibility: hidden;
+      display: none;
+      width: 0;
+      margin: 0;
+    }
+  }
+
+  .sortIcon {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+
+    svg {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .sortIcon {
+    max-width: 32px;
+    max-height: 32px;
+  }
+}

@@ -1,0 +1,30 @@
+.root {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  display: grid;
+  gap: 0 30px;
+  grid-template-columns: 445px minmax(min-content, 635px);
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding-top: 48px;
+    padding-bottom: 51px;
+    grid-template-columns: 136px minmax(min-content, 635px);
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .root {
+    gap: 48px 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .root {
+    padding-top: 20px;
+    padding-bottom: 42px;
+    gap: 0;
+  }
+}

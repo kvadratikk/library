@@ -1,0 +1,12 @@
+.root {
+  font: var(--font-body-l);
+  color: var(--gblack40);
+  margin-bottom: 32px;
+  display: block;
+}
+
+@media (max-width: 320px) {
+  .root {
+    font: var(--font-body-l-mobile);
+  }
+}

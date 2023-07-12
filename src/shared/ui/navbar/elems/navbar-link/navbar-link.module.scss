@@ -1,0 +1,20 @@
+.root {
+  border-bottom: 1px solid transparent;
+  max-width: 255px;
+  width: 100%;
+  text-align: left;
+  padding-right: 12px;
+}
+
+.active {
+  padding-bottom: 8px;
+  border-image: var(--btn-hover);
+  border-image-slice: 1;
+  background: var(--btn-hover);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  svg {
+    fill: var(--btn-hover-rgb);
+  }
+}

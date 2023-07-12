@@ -1,0 +1,29 @@
+:root {
+  --light: #ffffff;
+  --accent: #ff5253;
+  --dark: #363636;
+  --dark-rgb: 54, 54, 54;
+  --dark30: #3636364d;
+
+  --btn-pressed: linear-gradient(233.73deg, #f83600 -16.08%, #f9d423 327.37%);
+  --btn-hover: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  --btn-hover-rgb: rgb(255, 82, 83);
+  --btn-pressed-rgb: rgb(248, 54, 0);
+
+  --warning: #ffbc1f;
+  --positive: #00ca71;
+  --negative: #f42c4f;
+  --positive-back: #ebf9f1;
+  --negative-back: #feebea;
+
+  --gblack70: #727272;
+  --gblack40: #a7a7a7;
+  --gblack30: #3636364d;
+  --gblack20: #bfc4c9;
+  --gblack10: #ebebeb;
+  --gblack5: #f9f9fa;
+}
+
+@function HexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  position: relative;
+}
+
+.refund {
+  font: var(--font-title-4);
+  color: var(--accent);
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .refund {
+    font: var(--font-btn-l-mobile);
+  }
+}

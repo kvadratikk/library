@@ -1,0 +1,9 @@
+.root {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 320px) {
+  .root {
+    font: var(--font-title-3-mobile);
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "issueYear": "2019",
+    "rating": null,
+    "title": "101 способ раскрутки личного бренда. Как сделать себе имя",
+    "authors": ["Вячеслав Семенчук"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/fffd8d741345d780db0788e906ae2950.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 10,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2019",
+    "rating": null,
+    "title": "15 секретов управления временем. Как успешные люди успевают всё",
+    "authors": ["Кевин Круз"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/2c53053ea8f9caadf00be8d42072213e.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 51,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2020",
+    "rating": null,
+    "title": "21 урок для XXI века",
+    "authors": ["Юваль Ной Харари"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/e550856095f382043119f5f8a7b94ed6.webp"
+    },
+    "categories": ["Нон-фикшн"],
+    "id": 92,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2019",
+    "rating": null,
+    "title": "45 татуировок личности. Правила моей жизни",
+    "authors": ["Максим Батырев (Комбат)"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/fddb053c080544758cc8ff33bcfa9d44.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 31,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2018",
+    "rating": null,
+    "title": "45 татуировок менеджера. Правила российского руководителя",
+    "authors": ["Максим Батырев (Комбат)"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/384e41a13ff1911efa2f7a113e516503.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 30,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2020",
+    "rating": null,
+    "title": "Big Money: принципы первых. Откровенно о бизнесе и жизни успешных предпринимателей. Максимум",
+    "authors": ["Евгений Черняк"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/46ce7760c6af1de5b4c3703e74799ad6.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 21,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2020",
+    "rating": null,
+    "title": "Big Money: принципы первых. Откровенно о бизнесе и жизни успешных предпринимательниц. Книга 2",
+    "authors": ["Евгений Черняк"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/e4a786d3f3d853f4b7de20f5c04651e9.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 49,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2018",
+    "rating": null,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "authors": ["J. K. Rowling"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/495f1f97c058352d02906240dd01bbd0.webp"
+    },
+    "categories": ["Художественная литература"],
+    "id": 138,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2017",
+    "rating": null,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "authors": ["J. K. Rowling"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/e4d5ca90572b97acb5e1c8d59400a7ca.webp"
+    },
+    "categories": ["Художественная литература"],
+    "id": 119,
+    "booking": { "id": 5 },
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2018",
+    "rating": null,
+    "title": "Homo Deus. Краткая история будущего",
+    "authors": ["Юваль Ной Харари"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/fbb09c50f21d1c76e1ffedc4e4eb3747.webp"
+    },
+    "categories": ["Нон-фикшн"],
+    "id": 91,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2017",
+    "rating": null,
+    "title": "Huawei: Лидерство, корпоративная культура, открытость",
+    "authors": ["Тао Тань, Hom"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/5e8b5916e64948f3661d6ab357127ee6.webp"
+    },
+    "categories": ["Бизнес"],
+    "id": 44,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  },
+  {
+    "issueYear": "2014",
+    "rating": null,
+    "title": "Java. Объектно-ориентированное программирование",
+    "authors": ["Алексей Николаевич"],
+    "image": {
+      "url": "https://library-cleverland.fra1.digitaloceanspaces.com/66b287a08a70ac18ea4dbf4a47515cf6.webp"
+    },
+    "categories": ["Программирование"],
+    "id": 127,
+    "booking": null,
+    "delivery": null,
+    "histories": null
+  }
+]

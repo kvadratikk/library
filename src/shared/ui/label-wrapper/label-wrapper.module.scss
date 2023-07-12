@@ -1,0 +1,16 @@
+.root {
+  position: relative;
+
+  > svg {
+    position: absolute;
+    top: 16px;
+    right: 44px;
+  }
+
+  button {
+    max-height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+}
